@@ -1,1 +1,9 @@
 # Statistical-Analysis-of-KOSPI-and-HSI-Index
+
+This research explores the relationship between COVID-19 case prevalence and stock return volatility. Findings show that an increase in COVID-19 cases asymmetrically impacts volatility, leading to a transition from low to high volatility states, though this effect is less pronounced in already high volatility states. Government interventions and pandemic control measures also raise volatility in the KOSPI market. Monte Carlo simulations indicate that a surge in cases may exert downward pressure on Korean stock indices, while moderate and best-case scenarios suggest sustained growth.
+
+The study also examines volatility spillover between the Korea Composite Stock Price Index (KOSPI) and the Hang Seng Index (HSI) from 2013 to 2022. Using the Leverage Heteroskedastic Autoregressive Realized Volatility (LHAR) model for its superior fit and forecasting capabilities, it identifies moderate negative daily, positive weekly, and positive monthly spillovers from HSI to KOSPI. Conversely, KOSPI shows substantial negative weekly and positive monthly spillovers to HSI. Notably, a significant daily volatility spillover from HSI to KOSPI is observed, while KOSPI has no significant effect on HSI's next-day volatility.
+
+These findings highlight Hong Kong's daily volatility's unidirectional influence on Korea's subsequent-day volatility, crucial for investment and risk management strategies.
+
+Since 2016, machine learning has gained traction in finance for forecasting stock price trends, surpassing traditional models. This paper employs the LSTM method to predict KOSPI200 futures price changes, incorporating 33 variables, VPIN, and the Rama Cont model. It also involves generating transaction unit data for high-frequency trading and creating a market microstructure model to capture short-term price shifts.
